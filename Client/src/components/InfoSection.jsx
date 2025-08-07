@@ -12,9 +12,9 @@ const InfoSection = () => {
         <p className='text-xl font-semibold text-[#5B5B5B] text-center'>
           To complete your G17 Accreditation, a one-time registration fee is required. Please follow the payment guidelines below based on your location.
         </p>
-        <div className='grid md:grid-cols-2 gap-12 md:gap-30'>
+        <div className='flex items-center md:gap-30'>
 
-          <div className='flex flex-col items-center justify-center gap-6 text-black px-12 py-6 rounded-lg w-75' style={{
+          {/* <div className='flex flex-col items-center justify-center gap-6 text-black px-12 py-6 rounded-lg w-75' style={{
               boxShadow: '4px 4px 30px 0px #00000040',
             }}>
             <h2 className='font-bold text-base'>
@@ -34,7 +34,7 @@ const InfoSection = () => {
                 you’ll gain access to incredible perks, mentorships, masterclasses, and the global G17 network of changemakers.
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div className='flex flex-col items-center justify-start gap-6 text-black px-12 py-6 rounded-lg w-75' style={{
               boxShadow: '4px 4px 30px 0px #00000040',
